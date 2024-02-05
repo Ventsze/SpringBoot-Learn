@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-auto-config" />
         <module name="springboot-mybatis" />
         <module name="springboot-start" />
       </profile>
@@ -13,6 +14,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-auto-config" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-start" options="-parameters" />
     </option>
