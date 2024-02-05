@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/springboot-start/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-auto-config/pom.xml" />
+        <option value="$PROJECT_DIR$/dmybatis-springboot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/dmybatis-springboot-starter/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
